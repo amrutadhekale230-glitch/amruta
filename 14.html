@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zeal College Food Counter</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: lightgray;
+        }
+
+        
+        header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        
+        nav {
+            background-color: black;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: gray;
+            color: black;
+        }
+
+        
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+
+        .food-box {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            flex: 1;
+            border-radius: 8px;
+            box-shadow: 0 0 5px black;
+        }
+
+        .food-box h2 {
+            color: brown;
+        }
+
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            nav a {
+                float: none;
+                display: block;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Zeal College Food Counter</h1>
+    <p>Fresh • Affordable • Hygienic</p>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="timing.html">Timings</a>
+    <a href="cont.html">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="food-box">
+        <h2>Breakfast</h2>
+        <p>
+            Idli, Dosa, Poha and Tea are available in the morning.
+            The food is healthy and budget friendly for students.
+        </p>
+    </div>
+
+    <div class="food-box">
+        <h2>Lunch</h2>
+        <p>
+            Veg thali, Rice, Dal and Chapati are served in lunch time.
+            Clean and hygienic food is maintained.
+        </p>
+    </div>
+
+    <div class="food-box">
+        <h2>Snacks</h2>
+        <p>
+            Samosa, Vadapav and Cold drinks are available in evening.
+            Students enjoy snacks during break time.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    <p>Zeal College | Food Counter </p>
+</footer>
+
+</body>
+</html>
